@@ -2,7 +2,7 @@
 
   <div id="Home">
     
-    <HelloWorld msg="sweet-blog"/>
+    <HelloWorld msg="sweet-blog" p="Life is but a span."/>
   </div>
 </template>
 

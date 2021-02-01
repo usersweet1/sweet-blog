@@ -8,13 +8,13 @@
     <ul>
       <li><router-link to="/">home</router-link></li>
       <li><router-link to="/Article">article</router-link></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">about</a></li>
+      <li><router-link to="/About">about</router-link></li>
 
     </ul>
   </div>
   <h1>{{ msg }}</h1>
   <p>
-    Life is but a span.
+    {{  p  }}
   </p>
   </div>
 </template>
@@ -23,7 +23,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    p:String
   }
 }
 </script>

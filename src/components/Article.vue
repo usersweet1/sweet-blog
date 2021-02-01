@@ -2,7 +2,7 @@
 
   <div id="Article">
     
-    <HelloWorld msg="sweet-article"/>
+    <HelloWorld msg="sweet-article" p="No weal without woe."/>
   </div>
 </template>
 
