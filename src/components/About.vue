@@ -1,13 +1,14 @@
 <template>
 
   <div id="About">
-    <HelloWorld msg="About" p="A good medicine tastes bitter."/>
+    <HelloWorld msg="About" p="A good medicine tastes bitter." picture="/about.jpg"/>
     <div class="container">
       <div class="content">
           <h3>关于博主</h3>
           <p>小仙女，计算机科学与技术专业。XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
           <h3>联系博主</h3>
           <p>微博：听听起床啦</p>
+          
       </div>
     </div>
   </div>

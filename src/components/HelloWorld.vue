@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello" :style="{backgroundImage:'url('+picture+')'}">
     
     
     
@@ -24,8 +24,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-    p:String
+    p: String,
+    picture: String
   }
+
+  
 }
 </script>
 

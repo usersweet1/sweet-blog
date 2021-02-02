@@ -17,6 +17,6 @@
 
 6.运行 ...npm run serve...
 
-7.App.vue 内容只能写在div里
+7.App.vue 内容只能写在最大的div里
 
 8.scoped属性 实现类似于“作用域”的作用
