@@ -13,3 +13,11 @@ git pull
 
 5.push 到github：
 git push origin master
+
+#上传
+1.git init
+
+2.git commit -m“首次提交” 
+git branch -M main 
+git remote add origin https://github.com/usersweet1/english.git
+git push -u origin main

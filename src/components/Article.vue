@@ -3,7 +3,7 @@
   <div id="Article">
     
     <HelloWorld msg="sweet-article" p="No weal without woe."/>
-    <my-markdown></my-markdown>
+    <router-view></router-view>
   </div>
 </template>
 

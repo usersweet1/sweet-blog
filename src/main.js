@@ -12,7 +12,16 @@ Vue.use(VueRouter)
 const router=new VueRouter({
   routes:[
     {path:"/",component:Home},
-    {path:"/Article",component:Article},
+    {
+      path:"/Article",
+      component:Article,
+      children:[
+        {
+        path:"/Article/one",
+        component:require('./article/one.md').default,
+        }
+      ]
+    },
     {path:"/About",component:About}
   ],
   mode:"history"
