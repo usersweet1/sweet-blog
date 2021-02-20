@@ -1,4 +1,4 @@
-#配置路由
+# 配置路由
 1.安装 ...npm install vue-router --save-dev
 
 2.main.js 配置路由

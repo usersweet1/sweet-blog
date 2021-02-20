@@ -52,7 +52,7 @@ a {
   background-color: #c1cbd7;
   height: 300px;
   width: 100%;
-
+  text-align: center;
 }
 h1 {
   font-size: 50px;

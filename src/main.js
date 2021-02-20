@@ -19,6 +19,14 @@ const router=new VueRouter({
         {
         path:"/Article/one",
         component:require('./article/one.md').default,
+        },
+        {
+          path:"/Article/two",
+          component:require('./article/two.md').default,
+        },
+        {
+          path:"/Article/three",
+          component:require('./article/three.md').default,
         }
       ]
     },
